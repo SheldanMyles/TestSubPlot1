@@ -1,0 +1,25 @@
+e = linspace(-1000,1000);
+f1 = csc(e);
+f2 = sec(e);
+f3 = e.^2+2*e*sqrt(4);
+f4 = e*sqrt(5)
+subplot(2, 2, 1)
+plot(e,f1,'r','Linewidth',2)
+title('HEART BEAT')
+xlabel('e')
+ylabel('(e)')
+subplot(2, 2, 2)
+plot(e, f2, 'b', 'linewidth', 2)
+title('Gamma Radiation')
+xlabel('e')
+ylabel('(e)')
+subplot(2, 2, 3)
+plot(e, f3, 'g', 'linewidth', 2)
+title('BIG U')
+xlabel('e')
+ylabel('(e)')
+subplot(2, 2, 4)
+plot(e, f4, 'm', 'linewidth', 2)
+title('Just a Line')
+xlabel('e')
+ylabel('(e)')
